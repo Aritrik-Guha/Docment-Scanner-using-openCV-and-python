@@ -5,6 +5,8 @@ Here, many basic openCV functions have been used to detect and draw contours, ed
 2. Detect contours and extract the cotours having 4 edges.
 3. Perform 4 point transform on the original document, using the extracted contour shape metrics.
 
+## Please make sure that the transform.py file is in a folder named transform.
+
 
 # Check your work output by printing these lines after my indicated step-over sign
 
@@ -28,7 +30,7 @@ cv2.destroyAllWindows()'''
 print statements are present in code
 
 To run the code, type- 
-# $python3 document_scanner.py --images receipt.jpg
+### $python3 document_scanner.py --images receipt.jpg
 
 The transform folder contains the transform.py function, which transforms the original picture into the reshaped pdf type document,
 and returns the transformed image. The image is then subjected to local thresholding to give the black and white effect.
